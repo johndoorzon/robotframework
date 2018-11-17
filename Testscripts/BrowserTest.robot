@@ -22,7 +22,7 @@ Open browser en navigeer naar Bartosz home
 Open browser en navigeer naar Bol.com home
     Start browser    https://www.bol.com
     Verifieer header
-    Pause Execution
+    # Pause Execution
     
     
 *** Keywords ***
