@@ -11,6 +11,7 @@ ${timeout}    20
 @{main_menu}    Categorieën    Cadeaus & Inspiratie    Aanbiedingen
 *** Test Cases ***
 Open browser en navigeer naar Bartosz home
+    Pass Execution    Bartosz nog onbereikbaar    
     Start browser    https://www.bartosz.nl
     Klik link    Bartosz    
     Wait Until Element Is Visible    jquery:.staff-slider    timeout=${timeout}    
